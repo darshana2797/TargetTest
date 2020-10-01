@@ -16,7 +16,6 @@ export default function Main() {
       return (
         <HomeStack.Navigator>
           <HomeStack.Screen name="Home" component={Home} />
-          {/* <HomeStack.Screen name="Details" component={DetailsScreen} /> */}
         </HomeStack.Navigator>
       );
     }
@@ -25,7 +24,6 @@ export default function Main() {
         return (
           <DashboardStack.Navigator>
             <DashboardStack.Screen name="Dashboard" component={Dashboard} />
-            {/* <DashboardStack.Screen name="Details" component={DetailsScreen} /> */}
           </DashboardStack.Navigator>
         );
       }
