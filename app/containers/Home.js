@@ -21,7 +21,7 @@ function Home(props) {
     let activeIndexData = props.data && props.data.questions[props.data.activeIndex]
 
     return (
-        <ScrollView>           
+        <ScrollView style={styles.containerStyle}>           
             {activeIndexData ?
                 <Question 
                     key = {props.data.activeIndex}
